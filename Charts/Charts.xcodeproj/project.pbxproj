@@ -12,6 +12,7 @@
 		02AC859F2235985F00D28977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AC859E2235985F00D28977 /* Assets.xcassets */; };
 		02AC85A22235985F00D28977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AC85A02235985F00D28977 /* LaunchScreen.storyboard */; };
 		02AC85AD2235993A00D28977 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC85AC2235993A00D28977 /* UIViewExtension.swift */; };
+		02AC85B022359B7900D28977 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC85AF22359B7900D28977 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		02AC85A12235985F00D28977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02AC85A32235985F00D28977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02AC85AC2235993A00D28977 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		02AC85AF22359B7900D28977 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				02AC85992235985E00D28977 /* ViewController.swift */,
+				02AC85AE22359B6F00D28977 /* Views */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -86,6 +89,14 @@
 				02AC85AC2235993A00D28977 /* UIViewExtension.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		02AC85AE22359B6F00D28977 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02AC85AF22359B7900D28977 /* ChartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				02AC85AD2235993A00D28977 /* UIViewExtension.swift in Sources */,
 				02AC859A2235985E00D28977 /* ViewController.swift in Sources */,
 				02AC85982235985E00D28977 /* AppDelegate.swift in Sources */,
+				02AC85B022359B7900D28977 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

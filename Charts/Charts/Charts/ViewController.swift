@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  private let contentView = ChartView()
+
   init() {
     super.init(nibName: nil, bundle: nil)
   }
@@ -19,9 +21,7 @@ class ViewController: UIViewController {
   }
 
   override func loadView() {
-    let myView = UIView()
-    myView.backgroundColor = .red
-    view = myView
+    view = contentView
   }
 
   override func viewDidLoad() {
